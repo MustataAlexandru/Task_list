@@ -1,0 +1,36 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 10px;
+}
+
+.nav {
+  background-color: rgb(2, 90, 162);
+  padding: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.dropdown {
+  background-color: white;
+  padding: 1rem;
+}
+
+.logged_in {
+  color: #fff;
+  font-size: 16px;
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+}
+
+.logged_in img {
+  width: 3rem;
+  height: 3rem;
+  border-radius: 50%;
+}
